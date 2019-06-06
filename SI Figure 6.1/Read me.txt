@@ -1,0 +1,6 @@
+Read me: SI Figure 6.1
+Figure 6.1 requires four MatLab m files.  
+SI_Fig_6p1_MaxEWslsESS is the m file that contains the code that computes maximum error rate for Wsls to resist invasion by Alld
+This code makes use of the MatLab function fzero and the function DiffPayWslsAlld which computes the difference in payoff of an Wsls player against 
+another Wsls player and an Alld player against an Wsls player.  This function uses two functions EpayWSLSVsWSLS and EpayALLDVsWSLS that compute the 
+fitness of a Wsls player vs another Wsls player, and the expected fitness of an ALLD player against a Wsls player using monte carlo methods.

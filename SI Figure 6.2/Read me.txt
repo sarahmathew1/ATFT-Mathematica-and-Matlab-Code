@@ -1,0 +1,5 @@
+Read me: SI Figure 6.2
+Figure 6.2 requires two MatLab m files.  
+SI_Fig_6p2_AvPayWsls_Atft is the m file that contains the code that computes computes the average payoff of Wsls interacting with another Wsls player 
+and an Atft player interacting with another Atft player. This code makes use of the function EpayWSLSVsWSLS and EpayALLDVsWSLS that compute the 
+fitness of a Wsls player vs another Wsls player monte carlo methods.

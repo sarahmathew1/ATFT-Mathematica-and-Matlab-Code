@@ -1,0 +1,5 @@
+Read me: SI Figure 3.1
+Figure 3.1 requires two MatLab m files.  
+SI_Fig_3p1_MinAESS_ALLD s the m file that contains the code that computes minimum value of a necessary to resist invasion by ALLD. 
+This code makes use of the MatLab function fzero and the function DiffPayAtftAlld which computes the difference in payoff of an ATFT player against 
+another ATFT player and an ALLD player against an ATFT player.  

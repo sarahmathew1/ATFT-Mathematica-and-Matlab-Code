@@ -1,0 +1,5 @@
+Read me: SI Figure 3.4
+Figure 3.4 requires two MatLab m files.  
+SI_Fig_3p4_MinAESS_Tolerant is the m file that contains the code that computes minimum value of a necessary to resist invasion by Tolerant. 
+This code makes use of the MatLab function fzero and the function DiffPayAtftTolerant which computes the difference in payoff of an ATFT player against 
+another ATFT player and an Tolerant player against an ATFT player.  

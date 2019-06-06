@@ -1,0 +1,143 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4585,        135]
+NotebookOptionsPosition[      4290,        122]
+NotebookOutlinePosition[      4631,        137]
+CellTagsIndexPosition[      4588,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "v", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "vf", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "vp", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "as", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "b", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "c", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "d", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "w", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "e", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "aw", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", "as", "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"v", "\[Equal]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", "e"}], ")"}], "^", "2"}], 
+       RowBox[{"(", 
+        RowBox[{"b", "+", "d", "+", "c", "+", 
+         RowBox[{"w", " ", "v"}]}], ")"}]}], " ", "+", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", "e"}], ")"}], "e", 
+       RowBox[{"(", 
+        RowBox[{"b", "+", "d", "+", 
+         RowBox[{"aw", " ", "w", " ", "vf"}], "+", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "aw"}], ")"}], "w", " ", "vp"}], " ", "-", " ", 
+         "c", " ", "+", " ", 
+         RowBox[{"as", " ", "w", " ", "vp"}], "+", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "as"}], ")"}], "w", " ", "vf"}]}], ")"}]}], "+", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"e", "^", "2"}], " ", "w", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"1", "-", "as"}], ")"}], 
+             RowBox[{"(", 
+              RowBox[{"1", "-", "aw"}], ")"}]}], "+", 
+            RowBox[{"as", " ", "aw"}]}], ")"}], "v"}], " ", "+", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "as"}], ")"}], "aw", " ", "vf"}], " ", "+", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "aw"}], ")"}], "as", " ", "vp"}]}], ")"}]}]}]}], 
+    "\[IndentingNewLine]", "&&", "\[IndentingNewLine]", 
+    RowBox[{"vf", " ", "\[Equal]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", "e"}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "c"}], "+", 
+         RowBox[{"w", "  ", "v"}]}], ")"}]}], "+", 
+      RowBox[{"e", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"aw", " ", "w", " ", "vf"}], "+", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "aw"}], ")"}], "w", " ", "vp"}]}], ")"}]}]}]}], 
+    "\[IndentingNewLine]", "&&", "\[IndentingNewLine]", 
+    RowBox[{"vp", " ", "\[Equal]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", "e"}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{"b", "+", "d", "+", 
+         RowBox[{"w", " ", "v"}]}], ")"}]}], " ", "+", " ", 
+      RowBox[{"e", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"as", " ", "w", " ", "vp"}], " ", "+", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", "as"}], ")"}], " ", "w", " ", "vf"}]}], 
+        ")"}]}]}]}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"v", ",", " ", "vf", ",", " ", "vp"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.736529233170495*^9, 3.736529280965782*^9}, {
+  3.736529315590008*^9, 3.7365294813399134`*^9}, {3.768761636007883*^9, 
+  3.7687616443783417`*^9}, {3.768761850992181*^9, 
+  3.768761892376259*^9}},ExpressionUUID->"215d8d28-dd84-417f-aae0-\
+ff83925549a0"]
+},
+WindowSize->{1378, 818},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3728, 100, 371, "Input",ExpressionUUID->"215d8d28-dd84-417f-aae0-ff83925549a0"]
+}
+]
+*)
+

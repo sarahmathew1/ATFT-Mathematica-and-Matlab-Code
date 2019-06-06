@@ -1,0 +1,5 @@
+Read me: SI Figure 6.3
+Figure 6.3 requires four MatLab m files.  
+SI_Fig_6p3_MaxG_GTFT_ESS_AllD is the m file that contains the code that computes computes maximum value of g that allows GTFT to resist invasion
+by AllD. This code makes udse of the function DiffPayGTFTVsAllD that computes the difference in payoff of GTFT vs GTFT and AllD vs GTFT using the funcions
+EPayGTFTVsGTFT and EPayALLVsGTFT that compute these payoffs.

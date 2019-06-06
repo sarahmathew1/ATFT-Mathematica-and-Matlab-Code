@@ -1,0 +1,5 @@
+Read me: Figure 3
+Figure 3 requires two MatLab m files.  
+Fig_3_MinAinvade is the m file that contains the code that computes the minimum value of the parameter a necessary to for ATFT to invade ALLD when rare.
+This code makes use of the MatLab root finding routine fzero and the function DiffPayAtftDALLDinvade which computes the payoff difference between ATFT 
+and ALLD when ATFT is rare.  

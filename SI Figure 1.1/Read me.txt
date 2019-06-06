@@ -1,0 +1,5 @@
+Read me: SI Figure 1.1
+Figure 1.1 requires two MatLab m files.  
+SI_Fig_1p1_EpayATFTvsATFT_aVariesis the m file that contains the code that computes the payoff of an ATFT player against another ATFT
+player as a varies. This code makes use of the  function ExPayAtftvsATFT which computes the expected payoff of an ATFT player against 
+another ATFT player.  

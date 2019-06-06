@@ -1,0 +1,6 @@
+Read me: Figure 2
+Figure one requires four MatLab m files.  
+Fig_1_MinAESS_L6 is the m file that contains the code that computes the minimum value of the parameter a necessary to resist invasion by L6.  
+This code makes use of the MatLab root finding routine fzero and the function DiffPayAtftL6 which computes the payoff difference between ATFT and L6.  
+This function calls two other functions ExPayAtftVsAtftFocalBad and ExPayAtftVsAtftPartnerBad which compute the expected payoff of a focal
+ATFT player paired with an ATFT partner when the focal is in bad standing and when the partner is in bad standing.
